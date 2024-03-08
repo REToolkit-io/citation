@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function() {
     // Add Attribution Text
     var attributionText = $('<span>', { 
@@ -23,4 +22,3 @@ $(document).ready(function() {
     // Append the text and link to the element in the footer with the class "copy"
     $('footer .copy').append(attributionText).append(attributionLink);
 });
-</script>
